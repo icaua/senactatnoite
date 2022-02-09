@@ -1,1 +1,9 @@
-Criando novo arquivo
+@isaac cauã mourão da silva
+
+atualização via linha de comando 
+sudo apt update 
+sudo apt upgrade 
+sudo apt full-upgrade
+sudo apt dist-upgrade
+sudo apt autoremove 
+sudo apt autoclean
