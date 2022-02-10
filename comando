@@ -1,0 +1,26 @@
+comando 
+
+#ls = listar arquivos no diretorio 
+        ls -lh = listar detalhado 
+
+#ctrl+l = limpar a tela dos comandos
+
+#cd = mover-se entre diretorios 
+        cd / ( diretorio raiz do linux )
+        cd - (voltar diretorio anterior )
+        cd .. ( voltar ao diretorio do nivel anterior )
+
+#pwd (localização de diretorio)
+
+#mkdir (criação de diretorio )
+        mkdir -v (modo detalhado )
+#rmdir (remover diretorios vazios )
+
+#touch (mudar ou hora de um arquivo ou diretorio OBS:se o arquivo não existir ele cria)
+
+#cp -v(copiar arquivos ou diretorios)
+
+#mv -v (mover)
+
+rm -v (remover arquivos ou diretorios   )
+        rm -Rv (recursivo)
