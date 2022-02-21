@@ -1,0 +1,33 @@
+1. Conectar o Switch a rede senac: OK
+
+2. Resetar o Router TP-Link DIR-819:OK
+
+3. Acessar o Router e acessar as seguintes configurações
+   alterar HostName: senac 03 OK
+   alterar ipv4 para: 172.16.3.254 OK (esperar uns segundos) 
+   alterar configuralção DHCP: 150-250:ok 
+   sem opção para alteração DNS
+   
+   NOME: senac-03_2,4 (2.4 Ghz)
+         senac-03_2,4 (5.0 Ghz)
+    Com os dois frequências habilitadas.
+    senha: 123@senac
+
+    Conexões banda largas e Wi-fi :ok (com notbooks e celulares)
+    4.teste 
+    simet.nic.br. (wi-fi)
+    download: 29 Mbit/s 
+    upload: 30 Mbit/s
+    ping:6 ms
+    jitter:2 ms
+
+    teste simet.nic.br (cabeada)
+    download: 62 Mbit/s
+    upload: 87 Mbit/s
+    ping:4 ms
+    jitter:< 1 ms
+
+    teste wi-fiman:
+    download:80 Mbit/s
+    upload :76 Mbit/s 
+    ping:10 ms
