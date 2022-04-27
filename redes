@@ -1,0 +1,15 @@
+
+mac addres (endereço da placa de rede) <--
+ip address ( endereço de rede v4 | v6)
+hostname ( nome do computador )
+============================================================
+1_ethernet 10Mbps
+2_ fastEthernet 12/100Mbps
+3_gigaEthernet 10/100/1000
+
+servidor e dispositivos de rede sempre usam IP estatico
+
+===================================================
+IPconfi /all  
+getmac
+hostname
