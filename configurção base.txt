@@ -1,0 +1,103 @@
+    !acessar o modo EXEC privilegiado
+    enable
+
+            !configurar data e hora do switch
+            clock set 19:30:00 28 april 2022
+
+            !modo de configurar global
+            configure terminal
+
+            !configuração do hostname
+         hostname sw-02      
+            !habilitar criotografia de senha
+            service password-encryptation
+
+
+            !habilitar a marcação de data e hora no log
+             service timestamps log datetime msec 
+        
+            !desativar a resolução de nome 
+            no ip domain-lookup
+
+            !configuração da mensagem do dia 
+             banner motd # AVISO acesso autorizado somente a funcionario#
+        
+            !habilitando a senha do modo enable 
+            enable secret 123@senac
+
+            !criar usuario de administração do switch 
+            username senac scret 123@senac
+
+            !acessar a linha de console
+            line console 0
+
+            !habilitando login local
+            login local 
+
+            !habilitando o sincronismo dos logs 
+            loggin synchronous   
+
+            !habilitando o tempo de inatividade 
+            exec-timeout 5 30
+
+            !sair de todos os modos 
+            end
+
+    !salvando as configurações do switch 
+    copy running-config startup-config
+
+    !verificando as configurações do switch
+    show running-config
+
+================================================================================================================================
+                                    
+    !acessar o modo EXEC privilegiado
+    enable
+
+            !configurar data e hora do switch
+            clock set 20:10:00 28 april 2022
+
+            !modo de configurar global
+            configure terminal
+
+            !configuração do hostname
+         hostname sw-01     
+            !habilitar criotografia de senha
+            service password-encryptation
+
+
+            !habilitar a marcação de data e hora no log
+             service timestamps log datetime msec 
+        
+            !desativar a resolução de nome 
+            no ip domain-lookup
+
+            !configuração da mensagem do dia 
+        
+        
+            !habilitando a senha do modo enable 
+            enable secret 123@senac
+
+            !criar usuario de administração do switch 
+            username senac scret 123@senac
+
+            !acessar a linha de console
+            line console 0
+
+            !habilitando login local
+            login local 
+
+            !habilitando o sincronismo dos logs 
+            loggin synchronous   
+
+            !habilitando o tempo de inatividade 
+            exec-timeout 5 30
+
+            !sair de todos os modos 
+
+    !salvando as configurações do switch 
+    copy running-config startup-config
+
+    !verificando as configurações do switch
+    show running-config
+
